@@ -1,0 +1,1 @@
+# Solucao_FIREDetect_Analise-Preditiva
