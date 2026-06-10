@@ -19,3 +19,29 @@ Conectando com a temática de Indústria Espacial, os fluxos de dados brutos ger
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/7809af98-5cf5-4128-8fd7-0ac4035cc472" />
 
 
+# Projeto: FIREDetect
+Transformando Dados Orbitais em Inteligência Preventiva contra Queimadas
+
+### 1. Introdução e Contexto
+
+A indústria espacial evoluiu de um campo de exploração científica para um pilar estratégico da economia global. Com uma projeção de atingir US$ 1 trilhão até 2034, o verdadeiro desafio atual reside na transformação de dados brutos captados por constelações de satélites em soluções aplicáveis na Terra. No Brasil, esse cenário é crítico: anualmente, queimadas devastam biomas como a Amazônia, o Cerrado e o Pantanal, gerando perdas bilionárias e danos irreversíveis à biodiversidade.
+
+O projeto FIREDetect surge como uma resposta tecnológica a esse gargalo, unindo Data Science e Inteligência Artificial para converter os terabytes de dados orbitais do INPE em previsões acionáveis.
+
+### 2. O Problema: Monitoramento Reativo vs. Preditivo
+
+Atualmente, as ações de combate ao fogo são predominantemente reativas. As equipes são mobilizadas apenas após o foco ser detectado, momento em que o dano ambiental já se iniciou.
+
+Volume de Dados: Satélites como o GOES-16 geram dados contínuos, mas as instituições carecem de ferramentas que cruzem esses dados com variáveis climáticas em tempo real para antecipar o risco.
+
+Impacto Econômico: Estimativas indicam que a logística brasileira perde entre 3% e 5% de sua eficiência devido a rupturas causadas por eventos climáticos, incluindo incêndios que bloqueiam vias e destroem ativos.
+
+### 3. Solução Proposta: FIREDetect
+
+O FIREDetect é uma plataforma de análise preditiva que utiliza modelos de Machine Learning (Random Forest e XGBoost) treinados com dados históricos e atuais de sensoriamento remoto.
+
+Previsão de Risco: O sistema calcula o índice risco_fogo (0 a 1) para cada coordenada.
+
+Intensidade de Queima: Utiliza a métrica FRP (Fire Radiative Power) para prever a severidade do incêndio em megawatts.
+
+Variáveis Climáticas: Integra dados de precipitação e dias sem chuva para refinar a precisão, alcançando um R² de 0.85 no modelo Random Forest.
