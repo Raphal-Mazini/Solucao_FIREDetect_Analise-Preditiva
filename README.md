@@ -1,3 +1,10 @@
+# <center> Desafio do Cenário Atual </center> 
+
+As queimadas no Brasil destroem ecossistemas vitais nos biomas da Amazônia, Cerrado e Pantanal, entre outros, anualmente. O monitoramento reativo tradicional, apenas apagar o fogo após o início, gera custos econômicos massivos e perdas irreparáveis de biodiversidade. 
+Conectando com a temática de Indústria Espacial, os fluxos de dados brutos gerados por satélites de sensoriamento remoto, como o GOES-16 e os sistemas do INPE, geram terabytes diários. O grande gargalo das instituições não é a falta de dados, mas sim, a capacidade de converter esses dados brutos de satélite em inteligência preventiva e preditiva. 
+
+
+
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/5ce2d707-7618-4948-b57f-74ae9fb44a32" />
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6bed7162-6756-4533-bfad-7f34a53aec30" />
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/84c99ef5-4ad0-4454-91d9-d15c114aac0d" />
